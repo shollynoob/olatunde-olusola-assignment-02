@@ -13,10 +13,16 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
+
+ const arrayOfNumbers = [20, 30, 40, 50];
+ let total = 0;
+ arrayOfNumbers.forEach(sumOfNumbers);
+
 function sumOfNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+    total += arrayOfNumbers;
+    return total;
 }
-// assignment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
