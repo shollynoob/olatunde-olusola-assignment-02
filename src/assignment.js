@@ -14,7 +14,7 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 
- const arrayOfNumbers = [20, 30, 40, 50];
+//  const arrayOfNumbers = [20, 30, 40, 50];
  let total = 0;
  arrayOfNumbers.forEach(sumOfNumbers);
 
